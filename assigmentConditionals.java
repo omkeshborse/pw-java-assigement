@@ -14,7 +14,7 @@ a square or not.
 */  
         Scanner sc = new Scanner(System.in) ;
 
-        /* int length = sc.nextInt() ;
+        int length = sc.nextInt() ;
         int width = sc.nextInt() ;
 
         if (length == width ){
@@ -23,20 +23,20 @@ a square or not.
         }else{
             System.out.println("it is rectangle");
 
-        } */
+        }
 
 
-       /*  int input = sc.nextInt() ;
+        int input = sc.nextInt() ;
         if(input<0){
             System.out.println((input)*(-1));
         }else{
             System.out.println(input);
-        } */
+        }
 
         /* Write a program to take input from user for Cost Price (C.P.) and Selling Price(S.P.) and
         calculate Profit or Loss. */
 
-     /*    System.out.println("enter cost price");
+        System.out.println("enter cost price");
         int costPrice = sc.nextInt() ;
         System.out.println("enter selling price");
         int sellingPrice = sc.nextInt() ;
@@ -45,7 +45,7 @@ a square or not.
             System.out.println("profit : " + (sellingPrice - costPrice));
         }else{
             System.out.println("loss :" + (costPrice -sellingPrice ));
-        } */
+        }
         /* 4000
            9560
            profit : 5560 */
@@ -59,18 +59,18 @@ a square or not.
             Enter an integer: -6
             The number is negative and skipped*/
 
-            /* int x ;
+            int x ;
             System.out.println("enter number ");
             x = sc.nextInt() ;
             if(x>=0){
                 System.out.println("you enter positive number");
             }else{
                 System.out.println("you enter negative number and skipped");
-            } */
+            }
 
             /* Create a calculator using switch statement to perform addition, subtraction, multiplication
             and division. */
-           /*  int num1 = 6 ;
+            int num1 = 6 ;
             int num2 = 8 ;
             System.out.println("enter opreator");
             char oprator = sc.next().charAt(0);
@@ -96,7 +96,7 @@ a square or not.
                 default:
                 System.out.println("error ! the oprator is not correct ");
                     break;
-            } */
+            }
 
 
 
